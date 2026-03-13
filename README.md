@@ -18,4 +18,4 @@ Ou simplesmente abra o arquivo `index.html` no navegador.
 
 ## URL da Página do Projeto
 
-A página do projeto pode ser acessada em: [https://github.com/CaioEmanuelDev](https://github.com/CaioEmanuelDev)
+A página do projeto pode ser acessada em: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
