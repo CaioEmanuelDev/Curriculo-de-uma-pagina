@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo de pagina unica</title>
+    <style>
+        .skill-label {
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: 4px 10px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+            border: 1px solid #ddd;
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <hr>
+    <h1 aria-label="Caio Emanuel">Caio Emanuel</h1>
+    <header alt="Cabeçalho do Curriculo" >
+    <h2 aria-label="Desenvolvedor Front-End Junior">Desenvolvedor Front-End Junior</h2>
+    <label aria-label="Endereço - Rua/numero">Rua Antônio Bezerra, 123</label><br>
+    <label aria-label="Endereço - Cidade/Estado/CEP">Caruaru, PE, 55006-000</label><br>
+    <label aria-label="Contato - Telefone">(81) 3456-7890</label><br>
+    <label aria-label="Contato - Email">caio.emanuel@example.com</label>
+    </header>
+    
+    <br><br>
+
+    <section aria-label="Habilidades">
+        <p>Habilidades</p>
+        <label class="skill-label" aria-label="Node.js">Node.js (TS/JS)</label>
+        <label class="skill-label" aria-label="Python">Python</label>
+        <label class="skill-label" aria-label="AdonisJS">AdonisJS</label>
+        <label class="skill-label" aria-label="Express">Express</label>
+        <label class="skill-label" aria-label="Flask">Flask</label>
+        <label class="skill-label" aria-label="Prisma ORM">Prisma ORM</label>
+        <label class="skill-label" aria-label="MySQL">MySQL</label>
+        <label class="skill-label" aria-label="PostgreSQL">PostgreSQL</label>
+        <label class="skill-label" aria-label="Redis">Redis</label>
+        <label class="skill-label" aria-label="SQL">SQL</label>
+        <label class="skill-label" aria-label="React.js">React.js</label>
+        <label class="skill-label" aria-label="JavaScript (ES6+)">JavaScript (ES6+)</label>
+        <label class="skill-label" aria-label="Material UI (MUI)">Material UI (MUI)</label>
+        <label class="skill-label" aria-label="HTML5">HTML5</label>
+        <label class="skill-label" aria-label="CSS3">CSS3</label>
+        <label class="skill-label" aria-label="JWT">JWT</label>
+        <label class="skill-label" aria-label="HTTP-only Cookies">HTTP-only Cookies</label>
+        <label class="skill-label" aria-label="WhatsApp API">WhatsApp API</label>
+        <label class="skill-label" aria-label="ESC/POS">ESC/POS</label>
+        <label class="skill-label" aria-label="PPLB">PPLB</label>
+    </section>
+    <br><br>
+    <section alt="Educação" aria-label="Educação">
+        <p aria-label="Educação">Educação</p>
+        <label alt="Instituição" aria-label="Instituição">Universidade Federal de Pernambuco</label><br>
+        <label alt="Nível" aria-label="Nível">Graduação em Ciência da Computação</label><br>
+        <label alt="Ano" aria-label="Ano">2022 - 2026</label>
+    </section>
+    <br><br>
+    <section alt="Experiência n1" aria-label="Experiência">
+        <p aria-label="Experiência">Experiência</p>
+        <label alt="Empresa" aria-label="Empresa">Caruaru Frios LTDA</label><br>
+        <label alt="Periodo" aria-label="Periodo">Janeiro de 2019 - Dezembro de 2026</label><br>
+        <ul alt="Responsabilidade - Caruaru Frios LTDA">
+            <li alt="Responsabilidade - 1" aria-label="Responsabilidade - ">Desenvolvimento e manutenção de sistemas de gestão de estoque e vendas utilizando Node.js, React.js e MySQL.</li> 
+            <li alt="Responsabilidade - 2" aria-label="Responsabilidade">Implementação de integrações</li>
+            <li alt="Responsabilidade - 3" aria-label="Responsabilidade">Desenvolvimento de aplicações internas</li>
+        </ul>
+        <label alt="Habilidades" aria-label="Habilidades">Manutenção de sistemas, desenvolvimento de automações, manutenção de computadores, desenvolvimento WEB</label>
+   
+        <br><br>
+    
+        <h3 alt="Empresa" aria-label="Empresa">Softcom</h3>
+        <label alt="Periodo" aria-label="Periodo">Janeiro de 2019 - Dezembro de 2026</label><br>
+        <ul alt="Responsabilidade - Softcom">
+            <li alt="Responsabilidade - 1" aria-label="Responsabilidade - ">Desenvolvimento e manutenção de sistemas de gestão de estoque e vendas utilizando Node.js, React.js e MySQL.</li> 
+            <li alt="Responsabilidade - 2" aria-label="Responsabilidade">Implementação de integrações</li>
+            <li alt="Responsabilidade - 3" aria-label="Responsabilidade">Desenvolvimento de aplicações internas</li>
+        </ul>
+        <label alt="Habilidades" aria-label="Habilidades">Manutenção de sistemas, desenvolvimento de automações, manutenção de computadores, desenvolvimento WEB</label>
+    </section>
+</body>
+</html>
